@@ -27,6 +27,18 @@ MonoBehaviour:
     m_Key: settings_audio
     m_Metadata:
       m_Items: []
+  - m_Id: 703584881598464
+    m_Key: settings_game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705444598243328
+    m_Key: settings_graphic_resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706707255713792
+    m_Key: settings_graphic_framerate
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

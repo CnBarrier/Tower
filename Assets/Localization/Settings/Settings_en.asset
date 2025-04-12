@@ -30,6 +30,18 @@ MonoBehaviour:
     m_Localized: Audio
     m_Metadata:
       m_Items: []
+  - m_Id: 703584881598464
+    m_Localized: Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705444598243328
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706707255713792
+    m_Localized: Framerate
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
