@@ -4,7 +4,7 @@ using System.Linq;
 
 public class DropdownResolution : MonoBehaviour
 {
-    public TMP_Dropdown Resolutions;
+    public TMP_Dropdown resolutions;
     
     private Resolution[] availableResolutions;
     
@@ -19,12 +19,12 @@ public class DropdownResolution : MonoBehaviour
             .ThenByDescending(r => r.height)
             .ToArray();
         
-        Resolutions.ClearOptions();
+        resolutions.ClearOptions();
         PopulateResolutionOptions();
         
-        Resolutions.value = FindCurrentResolutionIndex();
-        Resolutions.RefreshShownValue();
-        Resolutions.onValueChanged.AddListener(HandleResolutionChange);
+        resolutions.value = FindCurrentResolutionIndex();
+        resolutions.RefreshShownValue();
+        resolutions.onValueChanged.AddListener(HandleResolutionChange);
     }
 
     void PopulateResolutionOptions()
@@ -33,7 +33,7 @@ public class DropdownResolution : MonoBehaviour
             .Select(r => $"{r.width}x{r.height}")
             .ToList();
         
-        Resolutions.AddOptions(options);
+        resolutions.AddOptions(options);
     }
 
     void HandleResolutionChange(int selectedIndex)

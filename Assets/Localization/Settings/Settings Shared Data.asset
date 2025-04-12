@@ -43,6 +43,10 @@ MonoBehaviour:
     m_Key: settings_back
     m_Metadata:
       m_Items: []
+  - m_Id: 774759154442240
+    m_Key: settings_game_languages
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -2,22 +2,25 @@ using UnityEngine;
 
 public class Settings : MonoBehaviour
 {
+    private CanvasGroup canvasgroup;
+
     void Start()
     {
+        canvasgroup = GetComponent<CanvasGroup>();
         HideSettingsMenu();
     }
 
     public void HideSettingsMenu()
     {
-        GetComponent<CanvasGroup>().alpha = 0;
-        GetComponent<CanvasGroup>().interactable = false;
-        GetComponent<CanvasGroup>().blocksRaycasts = false;
+        canvasgroup.alpha = 0;
+        canvasgroup.interactable = false;
+        canvasgroup.blocksRaycasts = false;
     }
 
     public void ShowSettingsMenu()
     {
-        GetComponent<CanvasGroup>().alpha = 1;
-        GetComponent<CanvasGroup>().interactable = true;
-        GetComponent<CanvasGroup>().blocksRaycasts = true;
+        canvasgroup.alpha = 1;
+        canvasgroup.interactable = true;
+        canvasgroup.blocksRaycasts = true;
     }
 }
