@@ -14,11 +14,10 @@ public class Settings : MonoBehaviour
         GetComponent<CanvasGroup>().blocksRaycasts = false;
     }
 
-    public void OpenSettingsMenu()
+    public void ShowSettingsMenu()
     {
         GetComponent<CanvasGroup>().alpha = 1;
         GetComponent<CanvasGroup>().interactable = true;
         GetComponent<CanvasGroup>().blocksRaycasts = true;
     }
-
 }
