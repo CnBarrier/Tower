@@ -2,11 +2,6 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
-    void Start()
-    {
-        
-    }
-
     public void StartGame()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Level1");
@@ -16,5 +11,10 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Game Quit!");
+    }
+
+    public void OpenSettingsMenu()
+    {
+        GetComponent<Settings>().OpenSettingsMenu();
     }
 }

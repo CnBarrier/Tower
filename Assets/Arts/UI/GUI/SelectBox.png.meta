@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 96ff48d1dfa3fb145a34fe38b33ce3c7
+guid: 65e52a8769fe2ae4fb5e1dfb081231b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8005196123200212401
-    second: SLMenu_0
+      213: -138416896358893855
+    second: SelectBox_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SLMenu_0
+      name: SelectBox_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 34
+        height: 34
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 3, y: 3, z: 3, w: 2}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bdcea0f57b281f60800000000000000
-      internalID: 8005196123200212401
+      spriteID: 1e6bd9de09e341ef0800000000000000
+      internalID: -138416896358893855
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 31eec6d858eef664a9343c994c0dd9b4
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      SLMenu_0: 8005196123200212401
+      SelectBox_0: -138416896358893855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
