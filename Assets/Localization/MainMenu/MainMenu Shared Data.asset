@@ -27,6 +27,18 @@ MonoBehaviour:
     m_Key: mainmenu_exitgame
     m_Metadata:
       m_Items: []
+  - m_Id: 1718635197358080
+    m_Key: mainmenu_continuegame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1718716692684800
+    m_Key: mainmenu_newgame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1718797110075392
+    m_Key: mainmenu_back
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
