@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 727d252996f826643b4d89da880d4d18
+guid: 5f3b80bd1c339eb438696b1d220c7a32
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5177083831493102178
-    second: MainMenu_Background_L1_0
+      213: 7566381908426981437
+    second: balustrade_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -76,7 +76,7 @@ TextureImporter:
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 2
-    compressionQuality: 100
+    compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MainMenu_Background_L1_0
+      name: balustrade_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
-        height: 180
+        width: 30
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e957f634fad4728b0800000000000000
-      internalID: -5177083831493102178
+      spriteID: d308bbed140310960800000000000000
+      internalID: 7566381908426981437
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      MainMenu_Background_L1_0: -5177083831493102178
+      balustrade_0: 7566381908426981437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
