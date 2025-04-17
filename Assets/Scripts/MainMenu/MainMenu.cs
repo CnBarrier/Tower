@@ -3,6 +3,7 @@ using UnityEngine;
 public class MainMenu : MonoBehaviour
 {
     private CanvasGroup canvasGroup;
+    public Animator animator;
     
     void Start()
     {
@@ -26,5 +27,10 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit(); 
+    }
+
+    public void Animations_Lishi()
+    {
+        
     }
 }
